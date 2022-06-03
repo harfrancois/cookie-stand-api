@@ -1,4 +1,4 @@
-# api-quick-start
+# cookie-stands-api
 
 Template Project for starting up CRUD API with Django Rest Framework
 
