@@ -1,3 +1,4 @@
+import random
 from django.contrib.auth import get_user_model
 from django.db import models
 
@@ -17,6 +18,7 @@ class CookieStand(models.Model):
         return self.location
 
     def save(self, *args, **kwargs):
+
         if not self.pk and not self.hourly_sales:
             min = self.minimum_customers_per_hour
             max = self.maximum_customers_per_hour
