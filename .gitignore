@@ -93,7 +93,7 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-cookie_stands_project/.env
+project/.env
 .venv
 env/
 venv/
@@ -101,11 +101,11 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder cookie_stands_project settings
+# Spyder project settings
 .spyderproject
 .spyproject
 
-# Rope cookie_stands_project settings
+# Rope project settings
 .ropeproject
 
 # mkdocs documentation
